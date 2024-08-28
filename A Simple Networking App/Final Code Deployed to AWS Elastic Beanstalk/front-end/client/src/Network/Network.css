@@ -1,0 +1,27 @@
+.network-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.connection-box {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  width: 300px;
+}
+
+.key-value-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.key {
+  font-weight: bold;
+}
+
+.value {
+  color: #555;
+}

@@ -1,0 +1,45 @@
+.dashboard {
+  padding: 20px;
+}
+
+.input-container {
+  margin-bottom: 20px;
+}
+
+.profiles-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.profile-box {
+  width: 7cm;
+  height: 7cm;
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: center;
+  background-color: #1dd890;
+}
+
+.profile-box .key-value {
+  display: flex;
+  justify-content: left;
+  width: 100%;
+  background-color: #e0e0e0;
+  padding: 5px;
+  margin: 2px 0;
+  font-size: calc(0.5vw + 0.5vh + 0.5vmin); /* Adjustable font size */
+}
+
+.profile-box .key {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.profile-box .value {
+  text-align: right;
+}

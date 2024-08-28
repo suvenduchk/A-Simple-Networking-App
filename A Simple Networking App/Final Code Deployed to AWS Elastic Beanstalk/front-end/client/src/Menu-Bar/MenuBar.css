@@ -1,0 +1,49 @@
+.menu-bar {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  width: 100%;
+  gap: 3cm; /* Space of 1cm between items */
+}
+
+.menu-button {
+  background-color: rgb(41, 202, 202);
+  border: 7px solid rgb(80, 79, 79);
+  padding: 20px;
+  color: black;
+  margin: 5px;
+  border-radius: 20px;
+  font-size: 14px;
+  cursor: pointer; /* Hand symbol */
+  transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+.menu-group {
+  display: flex;
+}
+
+.menu-button:hover {
+  background-color: orange; /* Change color on hover */
+}
+
+.auth-buttons {
+  margin-left: auto; /* Pushes the buttons to the extreme right */
+  display: flex;
+}
+
+.custom-input {
+  height: 1.8cm;
+  width: 10cm;
+  background-color: rgb(56, 55, 53);
+  border: 1px solid #000000;
+  padding: 5px;
+  box-sizing: border-box;
+  text-align: center;
+  margin-left: 7cm; /* Add a gap of 7cm between the button and the input box */
+  margin-top: 0.1cm;
+  margin-bottom: 0.1cm;
+  font-weight: bold;
+  color: rgb(192, 76, 76);
+  font-size: 26px;
+}

@@ -1,0 +1,26 @@
+.horizontal-tab-bar {
+  width: 100%;
+  height: 2cm;
+  display: flex;
+  justify-content: space-around;
+  align-items: center; /* Center items vertically */
+  background-color: #292626;
+}
+
+.horizontal-tab-bar a {
+  text-decoration: none;
+  padding: 10px 20px;
+  color: #ffffff;
+  font-weight: bold;
+  /*background-color: rgb(160, 46, 226); /* Set the background color */
+  height: 1cm; /* Set the height to 1cm */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease, color 0.3s ease; /* Add transition for background and text color */
+}
+
+.horizontal-tab-bar a:hover {
+  background-color: rgb(214, 56, 56); /* Change background color on hover */
+  color: #db4141; /* Change text color on hover */
+}

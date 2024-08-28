@@ -1,0 +1,40 @@
+.services-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.service {
+  width: 25%;
+  height: 17cm;
+  box-sizing: border-box;
+  padding: 10px;
+  text-align: left;
+  margin-bottom: 20px;
+  border: 1px solid #000000;
+  border-width: 0.5cm;
+  background-color: rgb(71, 71, 71);
+}
+
+.service-image {
+  height: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.service-image img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.service h2 {
+  margin: 10px 0;
+  color: rgb(194, 70, 70);
+}
+
+.service p {
+  margin: 10px 0;
+  color: rgb(179, 174, 174);
+}

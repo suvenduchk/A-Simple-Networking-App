@@ -1,0 +1,42 @@
+.profiles-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+}
+
+.profile-box {
+  width: 7cm;
+  height: 10cm;
+  border: 10px solid rgb(73, 70, 70);
+  background-color: rgb(34, 182, 133);
+  padding: 10px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.profile-box h3 {
+  font-size: 1.2em;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(210, 223, 19);
+}
+
+.key-value-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 0;
+}
+
+.key {
+  font-weight: bold;
+  margin-right: 10px;
+  text-align: left;
+  flex: 1;
+}
+
+.value {
+  text-align: right;
+  flex: 1;
+}

@@ -1,0 +1,172 @@
+.home-page {
+  /* Styles for the HomePage component */
+}
+
+.secondary-menu-bar {
+  height: 1cm; /* Set the height to 1cm */
+  width: 100%; /* Full width */
+  background-color: rgb(94, 66, 44); /* Brown background */
+  display: flex; /* Use flexbox for alignment */
+  justify-content: center; /* Center the buttons horizontally */
+  align-items: center; /* Center the buttons vertically */
+  padding: 10px 0; /* Add some padding */
+}
+
+.secondary-menu-button {
+  margin: 0 10px; /* Space between buttons */
+  padding: 10px 20px; /* Padding inside buttons */
+  background-color: #6e5c5c; /* Light grey background */
+  border: none; /* No border */
+  border-radius: 15px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+.secondary-menu-button:hover {
+  background-color: #db5d37; /* Darken the button background on hover */
+}
+
+/* Existing styles */
+
+.image-panel {
+  display: flex;
+  justify-content: center; /* Center the image horizontally */
+  align-items: center; /* Center the image vertically */
+  padding: 20px; /* Add some padding around the image */
+}
+
+.display-image {
+  width: 80%; /* Cover 80% of the length of the image panel */
+  min-height: 15cm; /* At least 15 cm long */
+  object-fit: cover; /* Ensure the aspect ratio is maintained while covering the area */
+}
+
+.central-message {
+  text-align: center; /* Center align the text */
+  width: 80%; /* Cover up to 80% of the screen width */
+  font-size: 200px; /* Set the font size to 36px */
+  margin: 0 auto; /* Center the div horizontally */
+}
+
+/* Existing styles */
+
+/* Styles for Box-1 */
+.box-1 {
+  width: 80%;
+  margin: 20px auto; /* Center the box and add some space above it */
+  background-color: #2ac5e0; /* Example background color */
+  display: flex; /* Enable flexbox */
+  justify-content: center; /* Center children horizontally */
+  padding: 20px; /* Space for `.box-2` inside */
+}
+
+.box-2 {
+  width: 100%; /* Take full width of `.box-1` padding into account */
+  height: auto; /* Adjust height based on content */
+  padding: 20px; /* Equal spacing from all sides */
+  box-sizing: border-box; /* Include padding in width calculation */
+  border-radius: 10px; /* Rounded corners */
+  display: flex; /* To align `.box-2-inner` elements vertically */
+  flex-direction: column; /* Stack `.box-2-inner` elements vertically */
+  background-color: #ddac43; /* Example background color */
+  border: 7px solid #413d3d; /* Border with specified width */
+  position: relative;
+}
+
+.box-2-inner {
+  width: 40%;
+  flex: 1; /* Equal height */
+  display: flex;
+  justify-content: left; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  margin: 10px 0; /* Space between `.box-2-inner` elements */
+  border-radius: 10px; /* Rounded corners */
+  border: 7px solid #d0d0d0; /* Border with specified width */
+}
+
+.heading-panel {
+  padding: 10px; /* Add some padding */
+  background-color: #d0d0d0; /* Example background color */
+  border-radius: 10px; /* Rounded corners */
+  font-weight: bold;
+}
+
+.box-3 {
+  position: absolute; /* Position box-3 inside box-2 */
+  top: 10%; /* Equal spacing from top */
+  left: 43%; /* Equal spacing from left */
+  right: 1%; /* Equal spacing from right */
+  bottom: 10%; /* Equal spacing from bottom */
+  background-color: #413d3d;
+  border-radius: 5px;
+  font-size: 18px;
+  color: white;
+  /* padding: 10px; */
+  /* Add additional styling for box-3 here */
+}
+
+.box-4 {
+  position: absolute;
+  width: 80%;
+  height: 20cm;
+  left: 8.5%;
+  background-color: rgb(51, 48, 48);
+  margin: 10px; /* Center align the box */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around; /* Equal spacing between rows */
+  padding: 20px;
+  color: #000000;
+}
+
+.text-box-row {
+  display: flex;
+  justify-content: space-around; /* Equal spacing between text boxes */
+}
+
+.text-box {
+  width: calc(
+    33.333% - 10px
+  ); /* Adjust width for 3 columns, accounting for some margin */
+  height: 8.5cm;
+  background-color: rgb(77, 131, 116);
+  display: flex;
+  flex-direction: column; /* Stack children vertically */
+  align-items: center; /* Center the text horizontally */
+  border: 10px solid; /* 10px broad boundaries */
+  font-size: 22px;
+}
+
+.text-box-heading {
+  width: 100%; /* Ensure the heading spans the full width of the box */
+  background-color: rgb(77, 131, 116); /* Highlighted color for headings */
+  height: 10cm;
+  text-align: center; /* Center the text within the heading */
+  margin-top: 10px; /* Optional: Adjust as needed to position the heading at the top */
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.explore-windows {
+  font-size: 180px; /* Set the font size for the "Explore Windows 11 features" text */
+  text-align: center; /* Center the text */
+  margin-top: 800px; /* Add space above the text */
+}
+
+.windows-features-description {
+  font-size: 40px; /* Set the font size for the description text */
+  text-align: center; /* Center the text */
+  margin-top: 10px; /* Add space above the text */
+}
+
+.meet-our-team-button {
+  width: 10cm; /* Set the width of the button */
+  height: 1cm;
+  background-color: rgb(231, 27, 122); /* Set the background color */
+  color: white; /* Set the text color */
+  border: none; /* Remove the border */
+  border-radius: 5px; /* Add rounded corners */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  display: block; /* Display block to allow margin auto to work */
+  margin: 20px auto; /* Center the button horizontally and add space above */
+}
